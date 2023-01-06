@@ -11,13 +11,20 @@
     <div class="userlogin">
         <p style="color: black; font-family: Arial, Helvetica, sans-serif;"> Register as an customer</p>
         <a href="index.html">
-          <div class="userimage"><img src="av2.svg" alt="User login image" style="width: 30vh; height: 30vh;"> </div>
+          <div class="userimage"><img src="av2.svg" alt="User login image" style="width: 30vh;
+            height: 30vh;
+            POSITION: absolute;
+            TOP: 6vh;
+            left: 5vw;"> </div>
         </a>
-    </div><br>
+    </div>
     <div class="csplogin">
         <p style="color: black; font-family: Arial, Helvetica, sans-serif;"> Register as an catering service provider</p>
         <a href="\cspreg\index.html">
-          <img src="av2.svg" alt="csp login image" style="width: 30vh; height: 30vh; top: 10vh; left: 40vh;" > 
+          <img src="av2.svg" alt="csp login image" style="width: 30vh;
+          height: 30vh;
+          position: absolute;
+          left: 5vw;" >  
         </a>
     </div>
 </div>
@@ -31,16 +38,24 @@
       height: 100vh;
     }
     .grid-container {
-    display: grid;
-    column-gap: 20px;
+    display: grid; 
+     column-gap: 20px;
     grid-template-columns: 60vh ;
-    background-color: white ;
+     /* background-color: white ;  */
     height: 85vh;
     width: 60vh;
     position: absolute;
     top: 50px;
     left: 50px;
-    row-gap: 20px;
+    row-gap: 20px; 
+   
+    gap: 1em;
+}
+.userlogin{
+  background-color: white ; 
+}
+.csplogin{
+  background-color: white ; 
 }
 </style>
 </html>
